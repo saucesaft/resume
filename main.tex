@@ -1,0 +1,282 @@
+%-------------------------
+% Resume in Latex
+% Author : Aras Gungore
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\usepackage{qrcode}
+\usepackage{multicol}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Eduardo Hernández Valdez } \\ \vspace{3pt}
+    \small
+    \faMobile \hspace{.5pt} \href{tel:905314204536}{+52 81 1237 3193}
+    $|$
+    \faAt \hspace{.5pt} \href{mailto:eduarch42@protonmail.com}{eduarch42@protonmail.com}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/eduardo-hern%C3%A1ndez-valdez-112ba1254/}{LinkedIn}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/arasgungore}{GitHub}
+    $|$
+    \faMapMarker \hspace{.5pt} \href{https://www.google.com/maps/place/Bogazici+University+North+Campus/@41.0863067,29.0441352,15z/data=!4m5!3m4!1s0x0:0x9d2497b07c8edb2f!8m2!3d41.0863067!4d29.0441352}{Mty, MX}
+
+\end{center}
+
+
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    
+    \resumeSubheading
+      {Instituto Tecnológico y de Estudios Superiores de Monterrey} {Monterrey, México}
+      {B.Sc. in Electrical and Electronics Engineering;   \textbf{90.26}}{Summer 2026 (Expected)}
+
+    \resumeSubheading
+      {PrepaTec Eugenio Garza Lagüera }{Monterrey, México}
+      {High School Diploma;   \textbf{GPA: 97.03/100}}{Sep 2014 \textbf{--} Jun 2018}
+    
+  \resumeSubHeadingListEnd
+
+%----------- RESEARCH EXPERIENCE -----------
+
+\section{Research Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      { VantTec - Autonomous Vehicle } { Monterrey, México }
+      { Embedded and Electronics Research and Development Intern }{ Jan 2023 \textbf{--} Present }
+        \resumeItemListStart
+            \resumeItem{}
+        \resumeItemListEnd
+    
+    \resumeSubheading
+      { VantTec - Autonomous Boat } {Monterrey, México}
+      { Perception Research and Development Intern }{ Aug 2022 \textbf{--} Present }
+        \resumeItemListStart
+            \resumeItem{}
+        \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+
+
+%----------- WORK EXPERIENCE -----------
+
+\section{Work Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    
+    \resumeSubheading
+      {Freelancing}{Remote}
+      {General Purpose Programming \textbf{--} https://www.fiverr.com/eduarch42 }{Intermittent Summers}
+        \resumeItemListStart
+	    \resumeItem{ Developed solutions for clients in various fields, including but not limited to:}
+	    \resumeItemListStart
+		\resumeItem{Data Science}
+		\resumeItem{Backend Development}
+		\resumeItem{GUI Desktop Applications}
+	    \resumeItemListEnd
+            \resumeItem{4.9 stars rating}
+            \resumeItem{Worked with clients from all around the world, including countries like the United States, Canada, the United Kingdom, Australia, Sweden, Germany, etc.}
+        \resumeItemListEnd
+
+    % \vspace{15pt}
+    
+  \resumeSubHeadingListEnd
+
+
+
+%----------- AWARDS & ACHIEVEMENTS -----------
+
+\section{Awards \& Achievements}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{HackMTY 2022 Hackathon} \textbf{--} { $1^{st}$ Place in Chubb's sponsored challenge} \\ \vspace{3pt}
+        
+        \textbf{Kocaeli Science High School Salutatorian Award:}{ Graduated as the second-highest ranked student in my class.}
+    }}
+  \resumeSubHeadingListEnd
+
+
+
+%----------- PROJECTS -----------
+
+\section{Projects}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+      
+      \resumeProjectHeading
+        {\textbf{Filters and Fractals} $|$ \emph{\href{https://github.com/arasgungore/filters-and-fractals}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{A C project which implements a variety of image processing operations that manipulate the size, filter, brightness, contrast, saturation, and other properties of PPM images from scratch.}
+            \resumeItem{Added recursive fractal generation functions to model popular fractals including Mandelbrot set, Julia set, Koch curve, Barnsley fern, and Sierpinski triangle in PPM format.}
+          \resumeItemListEnd
+      
+    \resumeSubHeadingListEnd
+
+
+
+%----------- SKILLS -----------
+
+\section{Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Programming:}{ Python (Proficient), Go (Proficient), C (Intermediate), C++ (Beginner)} \\ \vspace{3pt}
+        
+        \textbf{Technologies:}{ Git, Arduino, ROS, Simulink, LTspice, Xilinx ISE} \\ \vspace{3pt}
+        
+        \textbf{Languages:}{ Spanish (Native), English (Professional), German (Elementary)}
+        
+        % \textbf{Frameworks}{: X, X, X} \\
+        % \textbf{Developer Tools}{: X, X, X} \\
+        % \textbf{Libraries}{: X, X, X} \\
+        % \textbf{Applications}{: X, X, X}
+    }}
+  \resumeSubHeadingListEnd
+
+\vspace{2pt}
+
+\setlength{\columnsep}{-10cm} % make columns more close to each other
+
+\begin{center}
+    \begin{multicols}{3}
+	\qrcode{http://bit.ly/3XGCavy} \vspace{2pt} \\ LinkedIn
+
+	\qrcode{https://bit.ly/46DgHb7} \vspace{2pt} \\ Github
+
+	\qrcode{agregar link con pdf} \vspace{2pt} \\ PDF
+    \end{multicols}
+\end{center}
+
+\end{document}
