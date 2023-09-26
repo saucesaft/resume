@@ -15,3 +15,5 @@
 *.dvi
 *.xdv
 *-converted-to.*
+.DS_Store
+resume.pdf
